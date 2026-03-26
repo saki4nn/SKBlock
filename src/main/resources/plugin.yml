@@ -1,0 +1,9 @@
+name: SKBlock
+version: 1.0
+main: saki4.skblock.SKBlock
+api-version: 1.16
+commands:
+  skblock:
+    description: Главная команда плагина
+    permission: skblock.admin
+    permission-message: "У вас недостаточно прав для этого"
